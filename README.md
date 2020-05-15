@@ -1076,8 +1076,8 @@ Minting new token:
 
 * OpenSea Market Place - https://rinkeby.opensea.io/assets/unidentified-contract-v364
 * Picture  is not coming as token id is greater than 10.
-![OpenSea Rinkeby marketplace](Screenshot from 2020-05-15 13-50-28.png)
-![OpenSea Rinkeby item sold ](Screenshot from 2020-05-15 13-49-29.png)
+![OpenSea Rinkeby marketplace](images/activity_sold.png)
+![OpenSea Rinkeby item sold ](images/Marketplace.png)
 * https://knowledge.udacity.com/questions/84458
 
 
