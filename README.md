@@ -201,15 +201,17 @@ Summary
 =======
 > Total deployments:   5
 > Final cost:          0.08622168 ETH
-
+```
 
 ### Mint Tokens
 * Inside ```eth-contracts folder```, Run
 ```
 node addSolution.js ../zokrates/code/square/proofs/proof<number>.json <tokenId>
 ```
-
-## output
+	
+	
+## output for token 123
+```
 Submitting solution:
 - Input: 0x0000000000000000000000000000000000000000000000000000000000000009,0x0000000000000000000000000000000000000000000000000000000000000001
 - TokenID: 123
@@ -252,13 +254,14 @@ Submitting solution:
         event: 'solutionAdded',
         signature: '0x009c6ded84843084fe9bc0caed609ea68a61107c44ae1f1ae757f07d382edde5',
 
-
+```
 
 ```
 node mintToken.js <tokenId>
 ```
 
 #### Output for tokenid 123
+```
 Before minting, the contract has 0 token
 Minting new token:
 - Token ID: 123
