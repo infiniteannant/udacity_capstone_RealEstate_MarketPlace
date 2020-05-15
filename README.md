@@ -1091,7 +1091,7 @@ After minting, the contract has 1 token
 * https://rinkeby.opensea.io/assets/0xfb68b5688d3b2892cd2b01f028aa41838cca243c/9
 * https://rinkeby.opensea.io/assets/0xfb68b5688d3b2892cd2b01f028aa41838cca243c/10
 
-![OpenSea Rinkeby marketplace](MP.png)
+![OpenSea Rinkeby marketplace](images/MP.png)
 
 
 # Project Resources
