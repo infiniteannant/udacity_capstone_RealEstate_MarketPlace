@@ -103,15 +103,15 @@ Starting migrations...
 1_initial_migration.js
 ======================
 
-   Deploying 'Migrations'
+   Replacing 'Migrations'
    ----------------------
-   > transaction hash:    0x3347bb5db5f2e3c75da588ffd8002148f13d340f63af59549ad77e1a030e34a8
-   > Blocks: 0            Seconds: 14
-   > contract address:    0x2d747FF94532e4C1e28b4266Ae45B6f7A0963177
-   > block number:        6494383
-   > block timestamp:     1589571185
+   > transaction hash:    0xf14778e6f1cc0155596957480880d923a6c4571c8bbc51e64914aa30bc32c99b
+   > Blocks: 0            Seconds: 10
+   > contract address:    0xf4b92f746123B8Fc9BB72c8a908DFd0F4419e526
+   > block number:        6494878
+   > block timestamp:     1589578610
    > account:             0x7554744F910b0E8925f108a40201eE25B4823ab1
-   > balance:             3.646895032977956869
+   > balance:             3.698804211977956869
    > gas used:            225237
    > gas price:           10 gwei
    > value sent:          0 ETH
@@ -127,30 +127,30 @@ Starting migrations...
 2_deploy_contracts.js
 =====================
 
-   Deploying 'RealStateToken'
+   Replacing 'RealStateToken'
    --------------------------
-   > transaction hash:    0x659d8e06ed67aeb1ff965bbe2cc235a79aa3b25b06bbe39b4c5c8da8aa9548d6
-   > Blocks: 1            Seconds: 21
-   > contract address:    0x7eafd9B354274d7a12d4DB424ad0c10aBFB3A1ED
-   > block number:        6494386
-   > block timestamp:     1589571230
+   > transaction hash:    0xbf939a84102fe463d0bbfa3501052267f68938c80a74e6f948200475f73bab5e
+   > Blocks: 0            Seconds: 5
+   > contract address:    0x959a9Bbd48a39A6031fCaaB4E3D38212c72173a8
+   > block number:        6494880
+   > block timestamp:     1589578640
    > account:             0x7554744F910b0E8925f108a40201eE25B4823ab1
-   > balance:             3.618382312977956869
+   > balance:             3.670291491977956869
    > gas used:            2808909
    > gas price:           10 gwei
    > value sent:          0 ETH
    > total cost:          0.02808909 ETH
 
 
-   Deploying 'BN256G2'
+   Replacing 'BN256G2'
    -------------------
-   > transaction hash:    0x32730350a735a6a4c793f34e3e7bbf67eb9c54ac25a80373d4e886a5be0921d6
-   > Blocks: 1            Seconds: 17
-   > contract address:    0xDB3D3B166a1Cc4b29a7236f28eB411701715E0B6
-   > block number:        6494388
-   > block timestamp:     1589571260
+   > transaction hash:    0x1f6d08bca6bfaff0faec198420bae2dfd8cd9c10627703f8d5c899ba65cffea2
+   > Blocks: 0            Seconds: 6
+   > contract address:    0x984676E4c88A753d2c8226194A1250cff1500d7e
+   > block number:        6494881
+   > block timestamp:     1589578655
    > account:             0x7554744F910b0E8925f108a40201eE25B4823ab1
-   > balance:             3.608046572977956869
+   > balance:             3.659955751977956869
    > gas used:            1033574
    > gas price:           10 gwei
    > value sent:          0 ETH
@@ -159,32 +159,32 @@ Starting migrations...
 
    Linking
    -------
-   * Contract: Verifier <--> Library: BN256G2 (at address: 0xDB3D3B166a1Cc4b29a7236f28eB411701715E0B6)
+   * Contract: Verifier <--> Library: BN256G2 (at address: 0x984676E4c88A753d2c8226194A1250cff1500d7e)
 
-   Deploying 'Verifier'
+   Replacing 'Verifier'
    --------------------
-   > transaction hash:    0xfc8a578e58dc7eecf1627a6fb1bb766ece5cdff149be81e3a387045f6d710b24
+   > transaction hash:    0xcb11f63ea4fc63ba88dcd80aeadc37ee435aae508c64b6d97a482698f1ddc849
    > Blocks: 0            Seconds: 5
-   > contract address:    0xB16f5b0D09cBe822a5bd35B273Eb54D0B2D9813c
-   > block number:        6494389
-   > block timestamp:     1589571275
+   > contract address:    0x78cdF558A7A22248c55741947D9C0afBb9e1826a
+   > block number:        6494882
+   > block timestamp:     1589578670
    > account:             0x7554744F910b0E8925f108a40201eE25B4823ab1
-   > balance:             3.596029102977956869
+   > balance:             3.647938281977956869
    > gas used:            1201747
    > gas price:           10 gwei
    > value sent:          0 ETH
    > total cost:          0.01201747 ETH
 
 
-   Deploying 'SolnSquareVerifier'
+   Replacing 'SolnSquareVerifier'
    ------------------------------
-   > transaction hash:    0x6c7f6b7702bef3e135029e70586de5b34ff25a40b3fe4a16aefec18261d8389f
-   > Blocks: 1            Seconds: 18
-   > contract address:    0xfB68b5688D3B2892Cd2b01f028Aa41838cCA243C
-   > block number:        6494391
-   > block timestamp:     1589571305
+   > transaction hash:    0xc7709557b0ae019ec8f4d2f6cf2f50e97593be9fb9e5d0c50f85415229a4a83c
+   > Blocks: 0            Seconds: 5
+   > contract address:    0x401c7103567104A8a309f9C8B09B4B01165c44A9
+   > block number:        6494883
+   > block timestamp:     1589578685
    > account:             0x7554744F910b0E8925f108a40201eE25B4823ab1
-   > balance:             3.562502092977956869
+   > balance:             3.614411271977956869
    > gas used:            3352701
    > gas price:           10 gwei
    > value sent:          0 ETH
@@ -202,6 +202,8 @@ Summary
 > Total deployments:   5
 > Final cost:          0.08622168 ETH
 
+
+
 ```
 
 ### Mint Tokens
@@ -217,44 +219,45 @@ Submitting solution:
 - Input: 0x0000000000000000000000000000000000000000000000000000000000000009,0x0000000000000000000000000000000000000000000000000000000000000001
 - TokenID: 1
 - Address: 0x7554744F910b0E8925f108a40201eE25B4823ab1
-{ blockHash: '0xbc4615c96a4731bef02f78ad76fbda45a7b6815680d3bd736b5581193f683045',
-  blockNumber: 6494400,
+{ blockHash: '0x171540903afc24017cc93750d05dce8ac16ec4a93a2883f5a8b08b620f216961',
+  blockNumber: 6494886,
   contractAddress: null,
-  cumulativeGasUsed: 540447,
+  cumulativeGasUsed: 1330172,
   from: '0x7554744f910b0e8925f108a40201ee25b4823ab1',
   gasUsed: 487594,
-  logsBloom: '0x0000000000000000000000004000000800000000000000040000000000000000080000000000000000000200000000000000000000010000000000000c040000000000000000020000000000000000000000010000040000000000000000004000000000000001000000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000008000000400000000000000000000000000000000000000000000000000000040000000020000000000000000000000000000000000400000000000000000000000',
+  logsBloom: '0x00000000000000000000000040000008000000000000000400000800000000000800000200000000000002000000000000000000000112000000000004040000000000000000020000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000800000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000800000000000000000000000000000040000000020000000000000000000000000000000000400000000000000000000000',
   status: true,
-  to: '0xfb68b5688d3b2892cd2b01f028aa41838cca243c',
-  transactionHash: '0xc772fe5dde4b76f282bac544f051808b09236aae79a53b76be55b56c46f53f11',
-  transactionIndex: 2,
+  to: '0x401c7103567104a8a309f9c8b09b4b01165c44a9',
+  transactionHash: '0x2dd15934e4282a4cf110d0f6f19ecdbc7ee9a0490e7faacfe97047dfd2c1fcd7',
+  transactionIndex: 7,
   events: 
    { '0': 
-      { address: '0xB16f5b0D09cBe822a5bd35B273Eb54D0B2D9813c',
-        blockHash: '0xbc4615c96a4731bef02f78ad76fbda45a7b6815680d3bd736b5581193f683045',
-        blockNumber: 6494400,
-        logIndex: 0,
+      { address: '0x78cdF558A7A22248c55741947D9C0afBb9e1826a',
+        blockHash: '0x171540903afc24017cc93750d05dce8ac16ec4a93a2883f5a8b08b620f216961',
+        blockNumber: 6494886,
+        logIndex: 13,
         removed: false,
-        transactionHash: '0xc772fe5dde4b76f282bac544f051808b09236aae79a53b76be55b56c46f53f11',
-        transactionIndex: 2,
-        id: 'log_5cfef24f',
+        transactionHash: '0x2dd15934e4282a4cf110d0f6f19ecdbc7ee9a0490e7faacfe97047dfd2c1fcd7',
+        transactionIndex: 7,
+        id: 'log_e1d69216',
         returnValues: Result {},
         event: undefined,
         signature: null,
         raw: [Object] },
      solutionAdded: 
-      { address: '0xfB68b5688D3B2892Cd2b01f028Aa41838cCA243C',
-        blockHash: '0xbc4615c96a4731bef02f78ad76fbda45a7b6815680d3bd736b5581193f683045',
-        blockNumber: 6494400,
-        logIndex: 1,
+      { address: '0x401c7103567104A8a309f9C8B09B4B01165c44A9',
+        blockHash: '0x171540903afc24017cc93750d05dce8ac16ec4a93a2883f5a8b08b620f216961',
+        blockNumber: 6494886,
+        logIndex: 14,
         removed: false,
-        transactionHash: '0xc772fe5dde4b76f282bac544f051808b09236aae79a53b76be55b56c46f53f11',
-        transactionIndex: 2,
-        id: 'log_b8e0e097',
+        transactionHash: '0x2dd15934e4282a4cf110d0f6f19ecdbc7ee9a0490e7faacfe97047dfd2c1fcd7',
+        transactionIndex: 7,
+        id: 'log_82648e56',
         returnValues: [Object],
         event: 'solutionAdded',
         signature: '0x009c6ded84843084fe9bc0caed609ea68a61107c44ae1f1ae757f07d382edde5',
         raw: [Object] } } }
+
 
 
 ```
@@ -269,41 +272,43 @@ Before minting, the contract has 0 token
 Minting new token:
 - Token ID: 1
 - Address 0x7554744F910b0E8925f108a40201eE25B4823ab1
-{ blockHash: '0xa18c402c1340aa1f13f333a477c647c30eec5578cf638cd7654e0e83642d22f5',
-  blockNumber: 6494403,
+{ blockHash: '0x30eea897c1e7630f9ad594b8c2d5f4bb8d54e2605971503fe594913e9613c9cc',
+  blockNumber: 6494888,
   contractAddress: null,
-  cumulativeGasUsed: 633561,
+  cumulativeGasUsed: 896370,
   from: '0x7554744f910b0e8925f108a40201ee25b4823ab1',
   gasUsed: 242493,
-  logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000040000000000000000000000000008000000000000000000040000000000000000000000000000020001000000000000000800000000000000000000000010000000000000000000000000800000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000008000000402000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000',
+  logsBloom: '0x00000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000100000000000000040000000000000000000000000008000000000000000000040000000000000000000000000000020000000000000000000800000000000000000000000010000000000000000000000000800000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000002000000000000000000000800000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000',
   status: true,
-  to: '0xfb68b5688d3b2892cd2b01f028aa41838cca243c',
-  transactionHash: '0x12f4698330538be0b42f8fdbca23e7096c4aa9d1b31888f60e13a880ea446554',
+  to: '0x401c7103567104a8a309f9c8b09b4b01165c44a9',
+  transactionHash: '0x7095287b3fef717c4965a86dc939bb471e8af84039df8b0f2f09bc6bbbecf34a',
   transactionIndex: 4,
   events: 
    { Transfer: 
-      { address: '0xfB68b5688D3B2892Cd2b01f028Aa41838cCA243C',
-        blockHash: '0xa18c402c1340aa1f13f333a477c647c30eec5578cf638cd7654e0e83642d22f5',
-        blockNumber: 6494403,
-        logIndex: 2,
+      { address: '0x401c7103567104A8a309f9C8B09B4B01165c44A9',
+        blockHash: '0x30eea897c1e7630f9ad594b8c2d5f4bb8d54e2605971503fe594913e9613c9cc',
+        blockNumber: 6494888,
+        logIndex: 18,
         removed: false,
-        transactionHash: '0x12f4698330538be0b42f8fdbca23e7096c4aa9d1b31888f60e13a880ea446554',
+        transactionHash: '0x7095287b3fef717c4965a86dc939bb471e8af84039df8b0f2f09bc6bbbecf34a',
         transactionIndex: 4,
-        id: 'log_ae3f23bc',
+        id: 'log_b0f78178',
         returnValues: [Object],
         event: 'Transfer',
         signature: '0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef',
         raw: [Object] } } }
 After minting, the contract has 1 token
 
+
 ```
+Similarly the output will be for others token id 1-10
 
 
 
 ### Contract Address and ABI
 ## View the contracts on etherscan 
-  * "Verifier": "0xB16f5b0D09cBe822a5bd35B273Eb54D0B2D9813c",
-	*	"SolnSquareVerifier": "0xfB68b5688D3B2892Cd2b01f028Aa41838cCA243C"
+  *	"Verifier": "0x78cdF558A7A22248c55741947D9C0afBb9e1826a",
+	*	"SolnSquareVerifier": "0x401c7103567104A8a309f9C8B09B4B01165c44A9"
 #### Contract ABI
 * Verifier
 ```
@@ -1079,19 +1084,30 @@ After minting, the contract has 1 token
 ```
 
 
-* OpenSea Market Place - https://rinkeby.opensea.io/assets/unidentified-contract-v370
-* Picture and metadata is not coming as token id greater than 10.
-* https://knowledge.udacity.com/questions/84458
+* OpenSea Market Place - https://rinkeby.opensea.io/assets/unidentified-contract-v371
 
 ##5 Token bought by account 0xC2c1E51365ca5b473B32CF9E39ce19C9Ee2F37a0
 
-* https://rinkeby.opensea.io/assets/0xfb68b5688d3b2892cd2b01f028aa41838cca243c/1
-* https://rinkeby.opensea.io/assets/0xfb68b5688d3b2892cd2b01f028aa41838cca243c/7
-* https://rinkeby.opensea.io/assets/0xfb68b5688d3b2892cd2b01f028aa41838cca243c/8
-* https://rinkeby.opensea.io/assets/0xfb68b5688d3b2892cd2b01f028aa41838cca243c/9
-* https://rinkeby.opensea.io/assets/0xfb68b5688d3b2892cd2b01f028aa41838cca243c/10
+#List of all token minted-
+* https://rinkeby.opensea.io/assets/0x401c7103567104a8a309f9c8b09b4b01165c44a9/1
+* https://rinkeby.opensea.io/assets/0x401c7103567104a8a309f9c8b09b4b01165c44a9/2
+* https://rinkeby.opensea.io/assets/0x401c7103567104a8a309f9c8b09b4b01165c44a9/3
+* https://rinkeby.opensea.io/assets/0x401c7103567104a8a309f9c8b09b4b01165c44a9/4
+* https://rinkeby.opensea.io/assets/0x401c7103567104a8a309f9c8b09b4b01165c44a9/5
+* https://rinkeby.opensea.io/assets/0x401c7103567104a8a309f9c8b09b4b01165c44a9/6
+* https://rinkeby.opensea.io/assets/0x401c7103567104a8a309f9c8b09b4b01165c44a9/7
+* https://rinkeby.opensea.io/assets/0x401c7103567104a8a309f9c8b09b4b01165c44a9/8
+* https://rinkeby.opensea.io/assets/0x401c7103567104a8a309f9c8b09b4b01165c44a9/9
+* https://rinkeby.opensea.io/assets/0x401c7103567104a8a309f9c8b09b4b01165c44a9/10
 
-![OpenSea Rinkeby marketplace](images/MP.png)
+# List of token sold to other account- 0xC2c1E51365ca5b473B32CF9E39ce19C9Ee2F37a0
+* https://rinkeby.opensea.io/assets/0x401c7103567104a8a309f9c8b09b4b01165c44a9/1
+* https://rinkeby.opensea.io/assets/0x401c7103567104a8a309f9c8b09b4b01165c44a9/2
+* https://rinkeby.opensea.io/assets/0x401c7103567104a8a309f9c8b09b4b01165c44a9/3
+* https://rinkeby.opensea.io/assets/0x401c7103567104a8a309f9c8b09b4b01165c44a9/4
+* https://rinkeby.opensea.io/assets/0x401c7103567104a8a309f9c8b09b4b01165c44a9/5
+
+![OpenSea Rinkeby marketplace](images/MP2.png)
 
 
 # Project Resources
